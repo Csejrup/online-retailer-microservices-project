@@ -1,0 +1,12 @@
+/Users/csejrup/RiderProjects/OnlineRetailer_solution/SharedModels/bin/Debug/net7.0/SharedModels.deps.json
+/Users/csejrup/RiderProjects/OnlineRetailer_solution/SharedModels/bin/Debug/net7.0/SharedModels.dll
+/Users/csejrup/RiderProjects/OnlineRetailer_solution/SharedModels/bin/Debug/net7.0/SharedModels.pdb
+/Users/csejrup/RiderProjects/OnlineRetailer_solution/SharedModels/obj/Debug/net7.0/SharedModels.csproj.AssemblyReference.cache
+/Users/csejrup/RiderProjects/OnlineRetailer_solution/SharedModels/obj/Debug/net7.0/SharedModels.GeneratedMSBuildEditorConfig.editorconfig
+/Users/csejrup/RiderProjects/OnlineRetailer_solution/SharedModels/obj/Debug/net7.0/SharedModels.AssemblyInfoInputs.cache
+/Users/csejrup/RiderProjects/OnlineRetailer_solution/SharedModels/obj/Debug/net7.0/SharedModels.AssemblyInfo.cs
+/Users/csejrup/RiderProjects/OnlineRetailer_solution/SharedModels/obj/Debug/net7.0/SharedModels.csproj.CoreCompileInputs.cache
+/Users/csejrup/RiderProjects/OnlineRetailer_solution/SharedModels/obj/Debug/net7.0/SharedModels.dll
+/Users/csejrup/RiderProjects/OnlineRetailer_solution/SharedModels/obj/Debug/net7.0/refint/SharedModels.dll
+/Users/csejrup/RiderProjects/OnlineRetailer_solution/SharedModels/obj/Debug/net7.0/SharedModels.pdb
+/Users/csejrup/RiderProjects/OnlineRetailer_solution/SharedModels/obj/Debug/net7.0/ref/SharedModels.dll

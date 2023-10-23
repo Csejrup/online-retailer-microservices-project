@@ -1,0 +1,306 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/csejrup/RiderProjects/OnlineRetailer_solution/CustomersApi/CustomersApi.csproj": {}
+  },
+  "projects": {
+    "/Users/csejrup/RiderProjects/OnlineRetailer_solution/CustomersApi/CustomersApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/csejrup/RiderProjects/OnlineRetailer_solution/CustomersApi/CustomersApi.csproj",
+        "projectName": "CustomersApi",
+        "projectPath": "/Users/csejrup/RiderProjects/OnlineRetailer_solution/CustomersApi/CustomersApi.csproj",
+        "packagesPath": "/Users/csejrup/.nuget/packages/",
+        "outputPath": "/Users/csejrup/RiderProjects/OnlineRetailer_solution/CustomersApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/csejrup/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/csejrup/RiderProjects/OnlineRetailer_solution/ProductApi/ProductApi.csproj": {
+                "projectPath": "/Users/csejrup/RiderProjects/OnlineRetailer_solution/ProductApi/ProductApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "EasyNetQ": {
+              "target": "Package",
+              "version": "[7.4.3, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/csejrup/RiderProjects/OnlineRetailer_solution/OrderApi/OrderApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/csejrup/RiderProjects/OnlineRetailer_solution/OrderApi/OrderApi.csproj",
+        "projectName": "OrderApi",
+        "projectPath": "/Users/csejrup/RiderProjects/OnlineRetailer_solution/OrderApi/OrderApi.csproj",
+        "packagesPath": "/Users/csejrup/.nuget/packages/",
+        "outputPath": "/Users/csejrup/RiderProjects/OnlineRetailer_solution/OrderApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/csejrup/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/csejrup/RiderProjects/OnlineRetailer_solution/SharedModels/SharedModels.csproj": {
+                "projectPath": "/Users/csejrup/RiderProjects/OnlineRetailer_solution/SharedModels/SharedModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "EasyNetQ": {
+              "target": "Package",
+              "version": "[7.4.1, )"
+            },
+            "EasyNetQ.Serialization.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.4.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/csejrup/RiderProjects/OnlineRetailer_solution/ProductApi/ProductApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/csejrup/RiderProjects/OnlineRetailer_solution/ProductApi/ProductApi.csproj",
+        "projectName": "ProductApi",
+        "projectPath": "/Users/csejrup/RiderProjects/OnlineRetailer_solution/ProductApi/ProductApi.csproj",
+        "packagesPath": "/Users/csejrup/.nuget/packages/",
+        "outputPath": "/Users/csejrup/RiderProjects/OnlineRetailer_solution/ProductApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/csejrup/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/csejrup/RiderProjects/OnlineRetailer_solution/OrderApi/OrderApi.csproj": {
+                "projectPath": "/Users/csejrup/RiderProjects/OnlineRetailer_solution/OrderApi/OrderApi.csproj"
+              },
+              "/Users/csejrup/RiderProjects/OnlineRetailer_solution/SharedModels/SharedModels.csproj": {
+                "projectPath": "/Users/csejrup/RiderProjects/OnlineRetailer_solution/SharedModels/SharedModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "EasyNetQ": {
+              "target": "Package",
+              "version": "[7.4.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/csejrup/RiderProjects/OnlineRetailer_solution/SharedModels/SharedModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/csejrup/RiderProjects/OnlineRetailer_solution/SharedModels/SharedModels.csproj",
+        "projectName": "SharedModels",
+        "projectPath": "/Users/csejrup/RiderProjects/OnlineRetailer_solution/SharedModels/SharedModels.csproj",
+        "packagesPath": "/Users/csejrup/.nuget/packages/",
+        "outputPath": "/Users/csejrup/RiderProjects/OnlineRetailer_solution/SharedModels/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/csejrup/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
